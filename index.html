@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title></title>
+    <script src="jquery-3.5.1.js"></script>
+    <script>
+      $(document).ready(function(){
+        $(".pp").click(function(){
+          $(".pp").text("Hai Uki!");
+        });
+        $(".p1").hover(function(){
+          alert("The Page Says You entered to Uki!");
+        });
+        $("#bb1").click(function(){
+          $("ul").hide();
+        });
+        $("#bb2").click(function(){
+          $("ul").show();
+        });
+        $("#bb3").click(function(){
+          $("#p33").hide();
+        });
+          $(".y2").hover(function(){
+            $(".h2").css("background-color","#99ddff")
+          });
+      });
+      </script>
+  </head>
+  <body>
+
+    <nav align="center">
+    <a href="index.html">Home</a> |
+    <a href="form.html">Form</a> |
+    <a href="table.html">Timetable</a>
+    </nav>
+    <img src="ukil.jpeg" alt="UKI LIFE" class="img">
+<p class="pp">Wel come Uki</p>
+   
+    <div>
+      <div class="b1" style="background-color:#99ddff">
+      <h2 class="h1">Welcome to uki-stepping stone to teach life</h2>
+      <p class="p1">It is a full scholarship based Accelerator program for Coding in Jaffna, Sri Lanka targeting students who have completed Advanced Level examinations and don’t have access to university education or any other form of vocational education. It is aimed to provide the necessary training to enter Computer Software industry or to start an IT startup.
+        This is an initiative by Yarl IT Hub, which has been functioning for the last 5 years as a not for profit social enterprise focusing on technology entrepreneurship in Northern Sri Lanka.</p>
+      </div>
+      <div class="b2 y2" style="background-color:#ccc">
+      <h2 class="h2">Courses</h2>
+      <p class="p2"> Our vision is to be a leading center of excelence in teaching</p>
+      <ul>
+       <li>Programming</li>
+       <li>Basic Business Skills</li>
+       <li>Spoken English and Communication Skills</li>
+       <li>Personal Coaching</li>
+      </ul>
+       <button id="bb1">Hide</button>
+       <button id="bb2">Show</button>
+
+      </div>
+      <div class="b3 y2" style="background-color:#ccc">
+      <h2 class="h2">CODING ACCELERATOR PROGRAM</h2>
+      <p class="p2" id="p33">This Coding Accelerator program is an intensive trainig on full-stack development with server-side Node.js and modern, client-side, front-end libraries and frameworks. Throught this intensive course the student will study professional software development techniques and practices as he/she advances his/her skills on JavaScripts.  </p>
+      <button id="bb3">details</button>
+      </div>
+      <div class="f1" class="fbox"></div>
+    </div>
+    <div class="f2">
+  <p>2020 All Rights Reserved @ A joint inititative by Yarl IT Hub and Serve Foundation</p>
+</div>
+
+
+    </body>
+    </html>
+
+  </body>
+</html>
